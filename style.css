@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #f1f5f9;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 380px;
+    padding: 32px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
+
+h1 {
+    margin: 0 0 8px;
+    text-align: center;
+    color: #0f172a;
+}
+
+.subtitulo {
+    margin: 0 0 28px;
+    text-align: center;
+    color: #64748b;
+}
+
+label {
+    display: block;
+    margin: 16px 0 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #2563eb;
+}
+
+button {
+    width: 100%;
+    margin-top: 24px;
+    padding: 12px;
+    border: 0;
+    border-radius: 6px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.resultado {
+    text-align: center;
+}
+
+.mensagem {
+    margin: 24px 0;
+    font-size: 17px;
+}
+
+.sucesso {
+    color: #15803d;
+}
+
+.erro {
+    color: #b91c1c;
+}
+
+.voltar {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
